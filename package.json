@@ -4,7 +4,8 @@
   "description": "bootstrap a clack cli project",
   "main": "index.js",
   "bin": {
-    "create-clack": "dist/index.js"
+    "create-clack": "dist/index.js",
+    "create-clack-cli": "dist/index.js"
   },
   "repository": "https://github.com/adexot/create-clack-cli ",
   "author": "Adekunle Oseni",
