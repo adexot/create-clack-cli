@@ -1,11 +1,12 @@
 {
   "name": "create-clack-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "bootstrap a clack cli project",
   "main": "index.js",
   "bin": {
     "create-clack": "dist/index.js",
-    "create-clack-cli": "dist/index.js"
+    "create-clack-cli": "dist/index.js",
+    "cc": "dist/index.js"
   },
   "repository": "https://github.com/adexot/create-clack-cli ",
   "author": "Adekunle Oseni",
@@ -15,8 +16,7 @@
     "build": "tsup src/index.ts"
   },
   "dependencies": {
-    "@clack/core": "workspace:*",
-    "@clack/prompts": "workspace:*",
+    "@clack/prompts": "^0.6.0",
     "fs-extra": "^11.1.0",
     "picocolors": "^1.0.0"
   },

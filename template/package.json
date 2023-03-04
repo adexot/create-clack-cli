@@ -4,15 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@clack/core": "workspace:*",
-    "@clack/prompts": "workspace:*",
+    "@clack/prompts": "^0.6.0", 
     "picocolors": "^1.0.0"
   },
   "scripts": {
-    "start": "jiti ./index.ts"
+    "start": "jiti ./index.ts",
+    "build": "tsup src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^18.14.4",
-    "jiti": "^1.17.0"
+    "jiti": "^1.17.0",
+    "tsup": "^6.6.3"
   }
 }
