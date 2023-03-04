@@ -1,6 +1,6 @@
 {
   "name": "create-clack-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "bootstrap a clack cli project",
   "main": "index.js",
   "bin": {
@@ -28,6 +28,6 @@
   },
   "files": [
     "dist",
-    "templates"
+    "template"
   ]
 }
